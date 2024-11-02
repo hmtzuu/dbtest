@@ -21,4 +21,4 @@ res = db.get('posts').remove({id: 2}).write();
 console.log(res);
 
 //更新数据
-db.get('posts').find({id: 2}).assign({title: '今天下雨啦!!!~~~'}).write()
+db.get('posts').find({id: 2}).assign({title: '今天下雨啦!@@@'}).write()
